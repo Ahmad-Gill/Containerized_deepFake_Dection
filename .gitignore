@@ -14,8 +14,6 @@ __pycache__/
 # Django local settings
 .env
 .env.*
-*.sqlite3
-db.sqlite3
 .DS_Store
 
 # Media / Static files
@@ -33,23 +31,23 @@ htmlcov/
 .nox/
 .pytest_cache/
 
-# === Node.js / React ===
-node_modules/
-build/
-dist/
-.npm/
-.cache/
-*.log
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# # === Node.js / React ===
+# node_modules/
+# build/
+# dist/
+# .npm/
+# .cache/
+# *.log
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
 
-# React specific
-*.tgz
-*.lock
-yarn.lock
-package-lock.json
+# # React specific
+# *.tgz
+# *.lock
+# yarn.lock
+# package-lock.json
 
 # === OS specific ===
 .DS_Store
